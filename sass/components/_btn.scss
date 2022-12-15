@@ -1,0 +1,13 @@
+.button {
+  font-family: 'Roboto', sans-serif;
+  color: var(--secondary-txt-color);
+  background-color: var(--tertiary-bkgd-color);
+  border-style: none;
+  cursor: pointer;
+  border-radius: 4px;
+  &:hover,
+  &:focus {
+    color: var(--tertiary-txt-color);
+    background-color: var(--accent-color);
+  }
+}

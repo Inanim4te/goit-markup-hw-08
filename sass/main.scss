@@ -1,0 +1,18 @@
+@import './utils/vars';
+@import './base/reset';
+@import './utils/hide';
+@import './utils/mixins';
+@import './base/common';
+
+@import './components/logo';
+@import './components/btn';
+
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/advantages-block';
+@import './layouts/work-examples-block';
+@import './layouts/team-block';
+@import './layouts/clients-block';
+@import './layouts/portfolio-block';
+@import './layouts/footer';
+@import './layouts/modal';
