@@ -370,6 +370,9 @@ body {
 
 .hero {
   background-color: #c4c4c4;
+  max-width: 480px;
+  max-height: 400px;
+  margin: 0 auto;
   text-align: center;
   padding: 118px 15px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bkgd-mob.jpg);
@@ -384,6 +387,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .hero {
+    max-width: 768px;
     background-size: 768px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bkgd-tab.jpg);
   }
@@ -395,6 +399,8 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .hero {
+    max-width: 1600px;
+    max-height: 600px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bkgd.jpg);
     background-size: 1600px;
     padding: 200px 15px;
